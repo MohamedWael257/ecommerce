@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <title>Home</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/icons8-online-store-64.png" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <!-- Libraries Stylesheet -->
+    <!-- <link href="lib/animate/animate.min.css" rel="stylesheet"> -->
+    <!-- <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> -->
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+
+<body>
+    <div class="spin">
+        <i class="fa fa-spinner fa-spin"></i>
+    </div>
+    <header>
+        <div>
+            <div class="logo">
+                <i class="fa-brands fa-amazon-pay"></i>
+            </div>
+            <div class="location">
+                <ion-icon name="location"></ion-icon>
+                <p class="d-inline">derived to</p>
+                <p style="transform: translateX(20px);">Egypt</p>
+            </div>
+        </div>
+        <button class="hidebtn">=</button>
+        <nav>
+            <div class="search">
+                <button>all</button>
+                <input type="search" placeholder="search in Market">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="sign in.html" class=" signinn">Sign in</a>
+            <a href="sign up.html" class="signupp">Sign up</a>
+            <a href="index.html" class="account"></a>
+            <a href="index.html" class="logout">Logout</a>
+            <a href="products.html">Products</a>
+            <a href="orders.html">Order</a>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping me-2"></i>cart</a>
+        </nav>
+    </header>
+    <!-- end header -->
+
+    <section class="home">
+        <a href="products.html"><ion-icon name="menu"></ion-icon> All</a>
+        <a href="">Fashion</a>
+        <a href="">Smart Devices</a>
+        <a href="">Food</a>
+        <a href="">Personal care</a>
+        <a href="#">Home</a>
+        <!-- <img src="https://i.ibb.co/Jpjk6Nq/delever.jpg" alt="https://i.ibb.co/Jpjk6Nq/delever.jpg"> -->
+    </section>
+    <!-- end home -->
+
+    <section class="categories">
+        <div class="list">
+            <div class="allcategories">
+                <h6>all categories</h6>
+                <a href="">Fashion</a>
+                <a href="">Smart Devices</a>
+                <a href="">Food</a>
+                <a href="">Personal Care</a>
+                <a href="#">Home</a>
+            </div>
+            <div class="trending-search">
+                <h6>trending search </h6>
+                <a href="">MacBook Pro</a>
+                <a href="">Formal T-shirt</a>
+                <a href="">Scan Care</a>
+                <a href="">Casual</a>
+                <a href="">Tree Oli</a>
+                <a href="">Laptops</a>
+                <a href="">Redmi 9T</a>
+                <a href="">Samsung Galaxy</a>
+                <a href="">Casual</a>
+                <a href="">Tree Oli</a>
+                <a href="">Laptops</a>
+                <a href="">Redmi 9T</a>
+                <a href="">Samsung Galaxy</a>
+            </div>
+        </div>
+        <div class="details">
+            <div class="offer">
+                <div id="carouselExampleCaptions" data-bs-ride="carousel" class="carousel slide">
+                    <div class="img-cards carousel-inner">
+                        <div class="carousel-item ng-star-inserted">
+                            <img height="400px" alt="..." class="d-block w-100" src="images/4.jpg">
+                        </div>
+                        <div class="carousel-item ng-star-inserted active">
+                            <img height="400px" alt="..." class="d-block w-100" src="images/3.jpg">
+                        </div>
+                        <div class="carousel-item ng-star-inserted">
+                            <img height="400px" alt="..." class="d-block w-100" src="images/1.jpg">
+                        </div>
+
+                    </div>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"
+                        class="carousel-control-prev"><span aria-hidden="true"
+                            class="carousel-control-prev-icon text-dark"></span><span
+                            class="visually-hidden">Previous</span></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"
+                        class="carousel-control-next"><span aria-hidden="true"
+                            class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></button>
+                </div>
+                <div class="limitedoffer addtoproductcart">
+                    <img alt="" class="cards" src="images/offer.jpg">
+                    <p class="bg-dark text-white text-center p-2" style="cursor: pointer;">For limited period</p>
+                    <p class="title">SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12
+                        Bionic chip with...</p>
+                    <span class="text-warning">EGP 4495</span>
+                    <span class="text-decoration-line-through text-light-white">EGP 6293</span>
+                    <div class="add bg-white">
+                        <button class="btn btn-dark text-white" onclick="addtocart(0)">add to cart</button>
+                        <ion-icon name="location" class="text-dark border border-dark"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="categories-cards">
+                <div class="img-card c1">
+                    <p>Woman Fashion</p>
+                </div>
+                <div class="img-card c2">
+                    <p>Man Fashion</p>
+                </div>
+                <div class="img-card c3">
+                    <p>Laptos</p>
+                </div>
+                <div class="img-card c4">
+                    <p>Smart Device</p>
+                </div>
+                <div class="img-card c5">
+                    <p>Food & Resturant</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end categories -->
+
+    <section class="hot-deal">
+        <div class="special-items">
+            <p class="bg-dark text-white d-grid p-3" style="place-content: center; cursor: pointer;">Special-Items</p>
+        </div>
+        <div class="deals">
+            <i class="fa-solid fa-fire me-2 font-14"></i>
+            <span>Hot Deal</span>
+            <div class="line"></div>
+            <div id="carouselExampleCaptionss" data-bs-ride="carousel" class="carousel slide">
+                <div class="img-cards carousel-inner">
+                    <div class="carousel-item ng-star-inserted active one">
+                        <div class="cards"></div>
+                    </div>
+                    <div class="carousel-item ng-star-inserted two">
+                        <div class="cards"></div>
+                    </div>
+                    <div class="carousel-item ng-star-inserted three ">
+                        <div class="cards">
+                        </div>
+                    </div>
+                </div>
+                <button type="button" data-bs-target="#carouselExampleCaptionss" data-bs-slide="prev"
+                    class="carousel-control-prev">
+                    <span aria-hidden="true" class="carousel-control-prev-icon bg-dark"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button type="button" data-bs-target="#carouselExampleCaptionss" data-bs-slide="next"
+                    class="carousel-control-next">
+                    <span aria-hidden="true" class="carousel-control-next-icon bg-dark"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br>
+            <div id="carouselExampleCaptionsss" data-bs-ride="carousel" class="carousel slide">
+                <div class="img-cards carousel-inner">
+                    <div class="carousel-item ng-star-inserted active one">
+                        <div class="cards">
+                        </div>
+                    </div>
+                    <div class="carousel-item ng-star-inserted two">
+                        <div class="cards"></div>
+                    </div>
+                    <div class="carousel-item ng-star-inserted three ">
+                        <div class="cards">
+                        </div>
+                    </div>
+                </div>
+                <button type="button" data-bs-target="#carouselExampleCaptionss" data-bs-slide="prev"
+                    class="carousel-control-prev">
+                    <span aria-hidden="true" class="carousel-control-prev-icon bg-dark"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button type="button" data-bs-target="#carouselExampleCaptionss" data-bs-slide="next"
+                    class="carousel-control-next">
+                    <span aria-hidden="true" class="carousel-control-next-icon bg-dark"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- hot-deal -->
+
+    <section class="fashionn digital">
+        <div class="offers">
+            <div class="shop-now">
+                <img src="https://i.ibb.co/G79dWw4/banner1.png" alt="" class=" w-100 banner1">
+                <button class="btn btn-dark text-white">Shop now</button>
+                <div class="add bg-white">
+                    <button class="btn btn-dark text-white">add to cart</button>
+                    <ion-icon name="location" class="text-dark border border-dark"></ion-icon>
+                </div>
+            </div>
+            <div class="recommended-items">
+                <button class="recommended btn bg-dark text-center text-white">
+                    <i class="fa-brands fa-connectdevelop"></i>
+                    Recommended Items
+                </button>
+                <div class="card" style="cursor: pointer">
+                    <img src="images/recommended1.png" alt="">
+                    <p>Skin Beauty Serum.</p>
+                    <span class="text-warning">EGB276</span>
+                    <div class="add bg-white">
+                        <button class="btn btn-dark text-white">add to cart</button>
+                        <ion-icon name="location" class="text-dark border border-dark"></ion-icon>
+                    </div>
+                </div>
+                <div class="card" style="cursor: pointer">
+                    <img src="images/recommended2.jpg" alt="">
+                    <p>Hyaluronic Acid Serum</p>
+                    <span class="text-warning">EGB114</span>
+                    <div class="add bg-white">
+                        <button class="btn btn-dark text-white">add to cart</button>
+                        <ion-icon name="location" class="text-dark border border-dark"></ion-icon>
+                    </div>
+                </div>
+                <div class="card" style="cursor: pointer">
+                    <img src="images/recommended3.jpg" alt="">
+                    <p>TRee Oil 30ml</p>
+                    <span class="text-warning">EGB72</span>
+                    <div class="add bg-white">
+                        <button class="btn btn-dark text-white">add to cart</button>
+                        <ion-icon name="location" class="text-dark border border-dark"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="typesofcategories">
+            <i class="fa-solid fa-shirt me-2 font-14"></i>
+            <span>Fashion & ACCESSORIES</span>
+            <div class="line"></div>
+            <div class="fashion-accessories">
+                <div class="fparent">
+                    <div class="sparent">
+                        <div class="lparent">
+                            <div class="child bags">
+                                <img src="images/bags1.jpg" alt="">
+                                <p>BAGS</p>
+                            </div>
+                            <div class="child womanwatches">
+                                <img src="images/womanwatch3.jpg" alt="">
+                                <p>WOMEN WATCES </p>
+                            </div>
+                        </div>
+                        <div class="lparent ">
+                            <div class="child menwatches">
+                                <img src="images/manwatches.jpg" alt="">
+                                <p>MEN WATCES </p>
+                            </div>
+                            <div class="child jewllery">
+                                <img src="images/jewllery.jpg" alt="">
+                                <p>JEWLLERY</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselExampleCaptionns" data-bs-ride="carousel" class="carsu carousel slide child">
+                        <div class="img-cards carousel-inner">
+                            <div class="carousel-item ng-star-inserted one"></div>
+                            <div class="carousel-item ng-star-inserted active two"></div>
+                            <div class="carousel-item ng-star-inserted three"></div>
+                            <!-- <div class="carousel-item ng-star-inserted four"></div> -->
+                            <!-- <div class="carousel-item ng-star-inserted five"></div> -->
+
+                        </div>
+                        <button type="button" data-bs-target="#carouselExampleCaptionns" data-bs-slide="prev"
+                            class="carousel-control-prev">
+                            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button type="button" data-bs-target="#carouselExampleCaptionns" data-bs-slide="next"
+                            class="carousel-control-next">
+                            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="fparent" style="border-top: 2px solid black;">
+                    <div class="sparent">
+                        <div class="lparent">
+                            <div class="child tshirt">
+                                <img src="images/t-shirt.jpg" alt="">
+                                <p>T-SHIRT</p>
+                            </div>
+                            <div class="child women">
+                                <img src="images/woman.jpg" alt="">
+                                <p>WOMEN </p>
+                            </div>
+                        </div>
+                        <div class="lparent">
+                            <div class="child menclothes">
+                                <img src="images/manclothes.jpg" alt="">
+                                <p>MEN CLOTHES </p>
+                            </div>
+                            <div class="child tops">
+                                <img src="images/tops.jpg" alt="">
+                                <p>TOPS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselExampleCaptionnss" data-bs-ride="carousel" class="carsu carousel slide child"
+                        style=" border-top: 2px solid black">
+                        <div class="img-cards carousel-inner">
+                            <div class="carousel-item ng-star-inserted one"></div>
+                            <div class="carousel-item ng-star-inserted active two"></div>
+                            <div class="carousel-item ng-star-inserted three"></div>
+
+                        </div>
+                        <button type="button" data-bs-target="#carouselExampleCaptionnss" data-bs-slide="prev"
+                            class="carousel-control-prev">
+                            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button type="button" data-bs-target="#carouselExampleCaptionnss" data-bs-slide="next"
+                            class="carousel-control-next">
+                            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <i class="fa-solid fa-laptop me-2 font-14"></i>
+            <span>Digital Electronic</span>
+            <div class="line"></div>
+            <div class="digital-electromic">
+                <div class="fparent">
+                    <div class="sparent">
+                        <div class="lparent">
+                            <div class="child phone">
+                                <img src="images/phone.jpg" alt="">
+                                <p>PHONE</p>
+                            </div>
+                            <div class="child laptops">
+                                <img src="images/laptop4.png" alt="">
+                                <p>LAPTOPS </p>
+                            </div>
+                        </div>
+                        <div class="lparent">
+                            <div class="child automotive">
+                                <img src="images/automotive.jpg" alt="">
+                                <p>AUTOMOTIVE </p>
+                            </div>
+                            <div class="child motorcycle">
+                                <img src="images/motorcycle.jpg" alt="">
+                                <p>MOTORCYCLE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselExampleCaptionnsss" data-bs-ride="carousel" class="carsu carousel slide child">
+                        <div class="img-cards carousel-inner">
+                            <div class="carousel-item ng-star-inserted one"></div>
+                            <div class="carousel-item ng-star-inserted active two"></div>
+                            <div class="carousel-item ng-star-inserted three"></div>
+
+                        </div>
+                        <button type="button" data-bs-target="#carouselExampleCaptionnsss" data-bs-slide="prev"
+                            class="carousel-control-prev ">
+                            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button type="button" data-bs-target="#carouselExampleCaptionnsss" data-bs-slide="next"
+                            class="carousel-control-next">
+                            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- end FASHION & ACCESSORIES -->
+
+    <section class="feature-items">
+        <i class="fa-solid fa-award me-2 font-16"></i>
+        <span>FEATURE ITEMS</span>
+        <div class="line"></div>
+        <div class="content">
+        </div>
+    </section>
+    <!-- end FEATURE ITEMS -->
+
+    <footer>
+        <div class="text-center text-danger">So Market MohamedWael © 2023. All Rights Reserved.</div>
+    </footer>
+    <!-- end footer> -->
+    <!-- JavaScript ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- JavaScript Libraries -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- <script src="lib/wow/wow.min.js"></script> -->
+    <!-- <script src="lib/easing/easing.min.js"></script> -->
+    <!-- <script src="lib/waypoints/waypoints.min.js"></script> -->
+    <!-- <script src="lib/owlcarousel/owl.carousel.min.js"></script> -->
+
+    <!-- Template Javascript -->
+    <script src="js/user.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/storeproducts.js"></script>
+</body>
+
+</html>
